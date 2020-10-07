@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 4px;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+#sign-in-btn {
+    background-color: #4484F2;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#apps {
+    width: 24px;
+    padding: 8px;
+}
+
+.text-navbar {
+    color: #666666;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.text-navbar:hover {
+    text-decoration: underline;
+}
+
+.center-logo {
+    width: 272px;
+    height: 92px;
+    position: absolute;
+    top: 0;
+    bottom: 250px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.center {
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+}
+
+#input-text {
+    padding: 0.85em 1.0em 0.85em 2.8em;
+    font-size: 1em;
+    margin-bottom: 10%;
+    border-radius: 4em;
+    border: 0.8px solid #dfe1e5;
+    margin: auto;
+    width: 30%;
+    display: block;
+}
+
+#input-text:hover, #input-text:focus {
+    box-shadow: 0 0 0.15em 0.13em rgba(0, 0, 0, .15);
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    top: 18%;
+    left: 34%;
+}
+
+.mic-icon {
+    position: absolute;
+    top: 18%;
+    right: 34%;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #555;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0.15em 0.13em rgba(0, 0, 0, .15);
+}
+
+.btn:first-of-type {
+    margin-right: 5px;
+}
+
+.buttons-center {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.lang-text {
+    margin-top: 30px;
+}
+
+.lang-text p {
+    display: inline;
+    margin-right: 8px;
+    font-size: 13px;
+}
+
+.lang-text #lang {
+    text-decoration: none;
+    font-size: 13px;
+    color: darkblue;
+    margin-right: 8px;
+}
+
+.lang-text #lang:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    height: 84vh;
+}
+
+footer * {
+    background-color: #eee;
+    color: #777;
+    font-size: 10pt;
+    height: 5vh;
+    
+}
+
+
+
+footer nav a:first-of-type {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+footer nav {
+    display: block;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    
+}
+
+footer nav div {
+    padding: 2px 20px 20px 20px;
+    margin: auto;
+    
+}
+
+footer nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    display: inline;
+    
+}
+
+#footer-left {
+    float: left;
+    text-align: left;
+    padding: 8px 8px;
+    border-top: 4px black;
+}
+
+#footer-right {
+    float: right;
+    padding: 8px;
+    text-align: right;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    color: #707070;
+    position: fixed; 
+    width: 100%;
+}
+
+.location {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 25px;
+}
